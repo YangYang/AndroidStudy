@@ -8,16 +8,15 @@
 >
     <Button
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="设置点击空白区域（back键）弹出窗口消失"
+            android:text="设置点击空白区域（或back键）弹出窗口消失"
     />
-    //点击了back后会直接退出Activity
     <Button
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="设置点击空白区域（back键）弹出窗口不消失"
+            android:text="设置点击空白区域弹出窗口不消失（点击back键弹出窗口消失）"
     />
     <Button
             android:id="@+id/btn3"
@@ -31,13 +30,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="示例2"
-            android:layout_gravity="center"
-    />
-    <Button
-            android:id="@+id/btn5"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="示例3"
             android:layout_gravity="center"
     />
 </LinearLayout>
